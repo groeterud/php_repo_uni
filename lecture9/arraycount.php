@@ -2,11 +2,12 @@
 $color=array('Red','Green','Yellow','Red');
 
 $occurance=0;
+$search="Yellow";
 
 foreach ($color as $c) {
-    if ($c=="Red") {
+    if ($c==$search) {
         $occurance++;
     }
 }
-echo "Red color appears $occurance times(s)"
+echo "$search color appears $occurance times(s)"
 ?>
