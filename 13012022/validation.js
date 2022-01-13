@@ -9,6 +9,7 @@ function validate(form)
 	fail += validateEmail(form.email.value)
 	if (fail == "") return true
 	else { alert(fail); return false }
+	
 }
 function validateForename(field)
 {
